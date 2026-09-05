@@ -93,7 +93,7 @@ npm -v
    ```
 
 4. **Open in Browser**:
-   Open your browser and navigate to `http://localhost:5173` (or the URL provided in your terminal).
+   Open your browser and navigate to `http://localhost:3000` (or the URL provided in your terminal).
 
 ---
 
