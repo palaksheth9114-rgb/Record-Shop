@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Bebas+Neue&family=Caveat:wght@600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  font-family: 'Arvo', serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: #EFE6D5;
+  background-color: #231812;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
