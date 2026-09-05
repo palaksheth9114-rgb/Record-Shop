@@ -1337,7 +1337,7 @@ function CartDrawer({
               <div>
                 <label style={labelStyle}>Email Address *</label>
                 <input
-                  required type="email" value={form.email} placeholder="palaksheth9114@gmail.com"
+                  required type="email" value={form.email} placeholder="hello@needleandgrain.com"
                   onChange={(e) => setForm({ ...form, email: e.target.value })} style={inputStyle}
                 />
               </div>
@@ -1654,7 +1654,7 @@ export default function RecordShop() {
   const [cartOpen, setCartOpen] = useState(false);
   const [step, setStep] = useState("cart");
   const [form, setForm] = useState({
-    name: "Palak Sheth", email: "palaksheth9114@gmail.com", address: "Palak Sheth Estate, 118 Harbor Row, Bandra West", city: "Mumbai", state: "Maharashtra", pincode: "400050"
+    name: "Palak Sheth", email: "hello@needleandgrain.com", address: "Palak Sheth Estate, 118 Harbor Row, Bandra West", city: "Mumbai", state: "Maharashtra", pincode: "400050"
   });
   const [promo, setPromo] = useState("");
   const [discountPct, setDiscountPct] = useState(0);
@@ -2046,7 +2046,7 @@ export default function RecordShop() {
             <div>Wed–Mon: 11:00 AM – 8:30 PM</div>
             <div>Closed Tuesdays, always</div>
             <div style={{ marginTop: 10, color: PALETTE.brassLight, fontSize: 12 }}>
-              ✉ palaksheth9114@gmail.com
+              ✉ hello@needleandgrain.com
             </div>
           </div>
         </div>
