@@ -935,13 +935,14 @@ function RecordDetailModal({ record, onClose, onAdd, onPlayTrack, justAdded, pla
     <div style={{
       position: "fixed", inset: 0, background: "rgba(0,0,0,0.85)", zIndex: 100,
       display: "flex", alignItems: "center", justifyContent: "center", padding: 20,
-      backdropFilter: "blur(10px)"
+      backdropFilter: "blur(10px)", overflowY: "auto"
     }}>
       <div style={{
         background: PALETTE.walnutDeep, border: `2px solid ${PALETTE.brass}`,
         borderRadius: 26, maxWidth: 740, width: "100%", padding: 34,
         boxShadow: "0 40px 80px rgba(0,0,0,0.95), 0 0 60px " + PALETTE.goldGlow,
-        position: "relative", color: PALETTE.offwhite, fontFamily: "'Arvo', serif"
+        position: "relative", color: PALETTE.offwhite, fontFamily: "'Arvo', serif",
+        maxHeight: "90vh", overflowY: "auto"
       }}>
         <button
           onClick={onClose}
